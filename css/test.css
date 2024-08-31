@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust columns as needed */
+    grid-template-rows: repeat(4, 1fr);  /* Adjust rows as needed */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensure grid is on top */
+  }
+  
+  .grid-container a {
+    width: 100%;  /* Fills each cell */
+    height: 100%;
+    background: #fff; /* Optional background color */
+    opacity: 0.1; /* Optional transparency */
+    text-decoration: none; /* Remove underline from links */
+  }
